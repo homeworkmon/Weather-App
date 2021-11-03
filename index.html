@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3da572bb3.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+
+    <header>
+      <h1>What should I bring?</h1>
+    </header>
+
+    <div class="main">
+      <form class="form">
+        <input type=text name=city id=city placeholder=City required>
+        <button type=submit name=submit id=submit>Find my city</button>
+      </form>
+
+      <div class="display">
+        <p id="city-display"></p>
+        <i class="icon fas fa-9x fa-question-circle"></i>
+        <p id="caption"></p>
+      </div>
+    </div>
+
+  </body>
+</html>
