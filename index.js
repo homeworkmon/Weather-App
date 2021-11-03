@@ -56,7 +56,7 @@ function errorDisplay() {
 
 async function loadWeather(city) {
   try {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=951032efd2271902d5d36265a470b326`, { mode: 'cors' });
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=951032efd2271902d5d36265a470b326`, { mode: 'cors' });
     const currentWeather = await response.json();
     const conditions = currentWeather.weather[0].id;
     const temp = currentWeather.main.feels_like;
