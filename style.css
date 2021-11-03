@@ -35,7 +35,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 0.5rem
+    margin: 0.3rem;
 }
 #city {
     background-color: var(--input);
